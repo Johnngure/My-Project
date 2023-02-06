@@ -1,8 +1,8 @@
 import math
-fact_of_5 = math.factorial(5)
-print(fact_of_5)
+fact_of_3 = math.factorial(3)
+print(fact_of_3)
 
-gcd = math.gcd(300, 900)
+gcd = math.gcd(3, 12)
 print(gcd)
 
 log100 = (math.log(10, 100))
