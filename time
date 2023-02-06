@@ -1,0 +1,5 @@
+from datetime import time
+
+ date_today = date.time()
+ print(date.time)
+ 
