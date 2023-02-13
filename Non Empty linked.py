@@ -11,3 +11,7 @@ class Node:
              if self.head is None:
                  self.head = new_node
                  return
+             last_node = sel.head
+             while last_node.next:
+                 last_node = last_node.next
+             last_node.next = new_node
